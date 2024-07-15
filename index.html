@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Src/Styles/style.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Dolci Sapore</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-cake-candles" id="nav_logo"> Dolci Sapore</i>
+        
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <a href="https://api.whatsapp.com/send?I=pt%20br&phone=5511945556929">
+                <button class="btn-default" href="https://api.whatsapp.com/send?I=pt%20br&phone=5511945556929">
+                    Peça aqui
+                </button>
+            </a>    
+            
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Cardápio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <a href="https://api.whatsapp.com/send?I=pt%20br&phone=5511945556929">
+                <button class="btn-default">
+                    Peça aqui
+                </button>
+            </a>
+        </div>
+
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O sabor que vai até
+                    <span>você</span>
+                </h1>
+
+                <p class="description">
+                    Pensar na descrição
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="http://127.0.0.1:5500/index.html#menu" class="btn-default">
+                        Ver cardápio
+                    </a>
+
+                    <a href="https://api.whatsapp.com/send?I=pt%20br&phone=5511945556929" id="phone_button">
+                        <button class="btn-default" >
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (55) 11 94555-6929
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="https://api.whatsapp.com/send?I=pt%20br&phone=5511945556929">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/dolci_sapore?igsh=MTJ3ZnIwbGswcjV4dA==">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/profile.php?id=61562428647110">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="Src/Imagens/LOGO GI TRANSPARENTE (1).png" alt="Sobremesas">
+            </div>
+
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossas sobremesas especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="Src/Imagens/panna cotta.jpg" class="dish-image" alt="Panna Cotta">
+
+                    <h3 class="dish-title">
+                        Panna Cotta
+                    </h3>
+
+                    <span class="dish-description">
+                       Descrição sobremesa
+                    </span>
+                    
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="Src/Imagens/creme brulle.jpg" class="dish-image" alt="Creme Brulle">
+
+                    <h3 class="dish-title">
+                        Creme Brulle
+                    </h3>
+
+                    <span class="dish-description">
+                        Descrição creme Brulle
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="Src/Imagens/brownie-de-chocolate.jpg" class="dish-image" alt="Brownie de Chocolate">
+
+                    <h3 class="dish-title">
+                        Brownie
+                    </h3>
+
+                    <span class="dish-description">
+                        Descrição Brownie
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="Src/Imagens/Affogato.jpg" class="dish-image" alt="Affogato">
+
+                    <h3 class="dish-title">
+                        Affogato
+                    </h3>
+
+                    <span class="dish-description">
+                        Descrição Affogato
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="Src/Imagens/images.jpg" class="dish-image" alt="Mousse de Chocolate">
+
+                    <h3 class="dish-title">
+                        Mousse de Chocolate
+                    </h3>
+
+                    <span class="dish-description">
+                        Descrição Mousse
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="Src/Imagens/mousse-de-maracuja-com-tang-1.jpg" class="dish-image" alt="Mousse de Maracuja">
+
+                    <h3 class="dish-title">
+                        Mousse de Maracuja
+                    </h3>
+
+                    <span class="dish-description">
+                        Descrição Mousse
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="Src/Imagens/Tiramissu menu_250x444.jpg" class="dish-image" alt="Mousse de Maracuja">
+
+                    <h3 class="dish-title">
+                        Tiramissu
+                    </h3>
+
+                    <span class="dish-description">
+                        Descrição Tiramissu
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$15,00</h4>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="testimonials">
+            <img src="Src/Imagens/LOGO GI REDONDO.png" id="testimonial_chef" alt="Logo da empresa">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre as sobremesas
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Avaliação"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/avatar.png" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Fulana de Tal
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Avaliação"
+                            </p>
+                        </div>
+                    </div>
+
+                    <button class="btn-default">
+                        Ver mais avaliações
+                    </button>
+
+                </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="Src/Imagens/wave (5).svg" alt="Waves">
+    
+        <div id="footer_items">
+                <span id="copyright">
+                    &copy 2024 Giovanna A. Bruno
+                </span> 
+
+                <div class="social-media-buttons">
+                    <a href="https://api.whatsapp.com/send?I=pt%20br&phone=5511945556929">
+                        <i class="fa-brands fa-whatsapp" ></i>
+                    </a>
+    
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+    
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+        </div>
+    </footer>
+
+    <script src="Src/JavaScript/script.js"></script>
+
+</body>
+
+</html>
